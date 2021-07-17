@@ -1,0 +1,112 @@
+.footer {
+    background-color: #464646;
+  display: flex;
+  flex-direction: column;
+  min-height: 30px;
+  width: 100%;
+  max-width: 1260px;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+
+.footer nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer nav > a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.footer nav menu {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.footer nav menu li {
+    padding-left: 15px;
+}
+
+.footer nav menu li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer nav menu li a:hover {
+    color: #fc635e;
+    border-bottom: #fc635e 3px solid;
+    padding-bottom: 3px;
+}
+
+.footer .mainText {
+    
+    text-align: center;
+}
+
+.footer .mainText h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #fff;
+}
+
+.footer .mainText h2 span {
+    color: #db5854;
+}
+
+.footer .mainText p {
+    color: #fff;
+    font-size: 22px;
+}
+
+.footer .mainText a {
+    color: #db5854;
+    text-decoration: none;
+    font-size: 22px;
+    border: 2px solid #db5854;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.footer .mainText a:hover.Iwant {
+    background: #db5854;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 540px)  {
+    
+    nav {
+        padding: 0px 20px;
+    }
+
+    menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    menu li {
+        margin-bottom: 10px;
+    }
+
+    footer .mainText h2 {
+
+      font-size: 40px;
+      margin-top: 20px; 
+    }
+
+    footer .mainText p{
+
+        font-size: 18px;
+        padding-bottom: 20px;
+
+    }
+}

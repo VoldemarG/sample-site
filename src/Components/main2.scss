@@ -1,0 +1,71 @@
+.secondBlock {
+    /*Main*/
+    background: url("/main_img/expand.png") no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+    width: 100%;
+    max-width: 1260px;
+    justify-content: space-around;
+}
+
+.secondBlock .mainText {
+    text-align: center;
+    border: 10px solid rgba(0, 0, 0, 0.2);
+    margin: 50px;
+}
+
+.secondBlock .expand {
+    margin: 50px;
+}
+.secondBlock .mainText h2 {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #fff;
+}
+
+.secondBlock .mainText h2 span {
+    color: #db5854;
+    text-decoration: none;
+}
+
+.secondBlock .mainText a {
+    color: #db5854;
+    text-decoration: none;
+    font-size: 22px;
+    border: 2px solid #db5854;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.secondBlock .mainText a:hover.btn {
+    background: #db5854;
+    color: #fff;
+}
+
+.secondBlock .botHeader {
+    /*Ссылка со стрелкой*/
+    display: flex;
+    justify-content: center;
+}
+
+.secondBlock .botHeader a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    background: #db5854;
+    border-radius: 50%;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+}
+
+.secondBlock .botHeader a:hover {
+    opacity: 0.7;
+}
+
+.secondBlock .link {
+    margin-top: 50px;
+}

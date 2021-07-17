@@ -1,0 +1,99 @@
+
+.ourProcess{
+    .steps {
+        display: none;
+    }
+
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.ourProcess .mainText p  {
+    
+    
+    font-size: 18px;
+    color: gray;
+    
+}
+
+.ourProcess .mainText{
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+
+}
+
+.ourProcess .mainText h2 span {
+      color: #db5854;
+    text-decoration: none;
+}
+.ourProcess .mainText h2 {
+    
+       
+    text-transform: uppercase;
+      margin-top: 50px;
+    color: gray;
+    text-decoration: underline;
+}
+
+.ourProcess .botHeader{
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+.ourProcess .botHeader a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    background: #db5854;
+    border-radius: 50%;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+   
+    
+   
+}
+
+.ourProcess .botHeader a:hover {
+    opacity: 0.7;
+}
+
+.backProcess{
+min-height: 500px;
+min-width: auto;
+    background: url("/main_img/Our_process.png");
+    background-position:center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 549px) {
+    
+    .ourProcess .steps {
+        display: block;
+    }
+
+    .ourProcess .backProcess {
+        display: none;
+    }
+
+    .ourProcess .steps h3 {
+        text-align: center;
+    }
+
+    .ourProcess .steps h3 span {
+        color: #db5854;
+      text-decoration: none;
+      
+  }
+}

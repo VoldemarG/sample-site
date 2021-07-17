@@ -1,0 +1,56 @@
+.ourTeam {
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 30px;
+
+    .wrap {
+        display: flex;
+        justify-content: space-around;
+
+        .clients,
+        .ceo,
+        .marketing {
+            text-align: center;
+        }
+
+        a {
+            color: #414141;
+            font-size: 10px;
+            &:hover{
+                color: #868686;
+            }
+        }
+
+        p {
+            color: grey;
+        }
+        h4 {
+            color: #414141;
+            span {
+                color: #fc635e;
+            }
+        }
+    }
+
+    h2 {
+        text-decoration: underline;
+        color: gray;
+        padding-bottom: 5px;
+        span {
+            color: #fc635e;
+        }
+    }
+}
+
+@media screen and (max-width: 549px) {
+  
+    
+    .ourTeam .wrap {
+
+        flex-direction: column;
+        align-items: center;
+    }   
+}

@@ -1,0 +1,87 @@
+.receive {
+    margin-top: 0;
+    text-align: center;
+    background: white;
+    padding: 70px 50px 10px 50px;
+    color: #868686;
+
+    .receive p {
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+}
+
+.receive h2 {
+    text-decoration: underline;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+
+    span {
+        color: #fc635e;
+    }
+}
+
+.second {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fc635e;
+    border: 1px solid #fc635e;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    &:hover {
+        background: #fc635e;
+        color: white;
+    }
+}
+
+.receive .icons {
+    display: flex;
+    .receive .icons h4 {
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+
+    .receive .icons p {
+        font-size: 18px;
+    }
+
+    .receive .icons div {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .receive {
+        padding: 30px 20px;
+    }
+
+    .receive h2 {
+        font-size: 26px;
+    }
+
+    .receive p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .receive .icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.receive .icons div {
+    max-width: 350px;
+}
+
+.receive .icons div p {
+    margin-bottom: 20px;
+}
+
+
+

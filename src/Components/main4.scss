@@ -1,0 +1,495 @@
+.wedo1 h2 span {
+    color: #db5854;
+    text-decoration: none;
+}
+.wedo1 h2 {
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: gray;
+    text-decoration: underline;
+}
+
+.wedo1 .botHeader {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.wedo1 .botHeader a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    background: #db5854;
+    border-radius: 50%;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+}
+
+.wedo1 .botHeader a:hover {
+    opacity: 0.7;
+}
+
+// Button
+.wedo1 .left a {
+    color: #db5854;
+    text-decoration: none;
+    font-size: 22px;
+    border: 2px solid #db5854;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+.wedo1 .left a:hover.btn {
+    background: #db5854;
+    color: #fff;
+}
+// Button end
+
+.wedo1 {
+    padding: 25px;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h2,
+    h3,
+    p {
+        color: gray;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        border-left: 10px solid #fc635e;
+        padding-left: 10px;
+    }
+
+    .left {
+        max-width: 50%;
+    }
+
+    .right {
+        max-width: 50%;
+    }
+
+    p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wedo1 {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .wedo1 .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wedo1 .container img {
+        width: 100%;
+    }
+
+    .wedo1 .container .right {
+        order: 1;
+        max-width: 100%;
+    }
+
+    .wedo1 .container .left {
+        order: 2;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .wedo1 .container .btn {
+        margin-bottom: 20px;
+    }
+}
+
+.wedo2 .botHeader {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.wedo2 .botHeader a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    background: #db5854;
+    border-radius: 50%;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+}
+
+.wedo2 .botHeader a:hover {
+    opacity: 0.7;
+}
+
+// Button
+
+
+.wedo2 .container .left a {
+    color: #db5854;
+    text-decoration: none;
+    font-size: 22px;
+    border: 2px solid #db5854;
+    padding: 12px 28px;
+    border-radius: 8px;
+
+
+}
+.wedo2 .left a:hover.btn {
+    background: #db5854;
+    color: #fff;
+}
+// Button end
+
+.wedo2 {
+    padding: 25px;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h2,
+    h3,
+    p {
+        color: gray;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        border-right: 10px solid #fc635e;
+        padding-left: 10px;
+    }
+
+    .left {
+        max-width: 50%;
+        text-align: right;
+    }
+
+    .right {
+        max-width: 50%;
+    }
+
+    p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wedo2 {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .wedo2 .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wedo2 .container img {
+        width: 100%;
+    }
+
+    .wedo2 .container .right {
+        // order: 2;
+        max-width: 100%;
+    }
+
+    .wedo2 .container .left {
+        // order: 1;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .wedo2 .container .btn {
+        margin-bottom: 20px;
+    }
+}
+
+.wedo2 {
+    padding: 25px;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .container {
+        display: flex;
+    }
+
+    h2,
+    h3,
+    p {
+        
+        color: gray;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        border-right: 10px solid #fc635e;
+        padding-right: 10px;
+    }
+
+    .left {
+        max-width: 50%;
+    }
+
+    .right {
+        max-width: 50%;
+    }
+
+    p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+}
+
+.wedo2 .container .left {
+    order: 2;
+}
+
+.wedo2 .container .right {
+    order: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .wedo2 {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .wedo2 .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wedo2 .container img {
+        width: 100%;
+    }
+
+    .wedo2 .container .left {
+        order: 2;
+        max-width: 100%;
+    }
+
+    .wedo2 .container .right {
+        order: 1;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .wedo2 .container .btn {
+        margin-bottom: 20px;
+    }
+}
+
+.wedo3 .botHeader {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.wedo3 .botHeader a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    background: #db5854;
+    border-radius: 50%;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+}
+
+.wedo3 .botHeader a:hover {
+    opacity: 0.7;
+}
+
+// Button
+
+
+
+.wedo3 .left a {
+    color: #db5854;
+    text-decoration: none;
+    font-size: 22px;
+    border: 2px solid #db5854;
+    padding: 12px 28px;
+    border-radius: 8px; 
+       
+}
+.wedo3 .left a:hover.btn {
+    background: #db5854;
+    color: #fff;
+}
+// Button end
+
+.wedo3 {
+    padding: 25px;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h2,
+    h3,
+    p {
+        color: gray;
+    }
+
+    .wedo3 h3 {
+        text-transform: uppercase;
+        border-left: 10px solid #fc635e;
+        padding-left: 10px;
+    }
+
+    .left {
+        max-width: 50%;
+    }
+
+    .right {
+        max-width: 50%;
+    }
+
+    p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wedo3 {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .wedo3 .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wedo3 .container img {
+        width: 100%;
+    }
+
+    .wedo3 .container .right {
+        order: 1;
+        max-width: 100%;
+    }
+
+    .wedo3 .container .left {
+        order: 2;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .wedo3 .container .btn {
+        margin-bottom: 20px;
+    }
+}
+
+.wedo3 {
+    padding: 25px;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .container {
+        display: flex;
+    }
+
+    h2,
+    h3,
+    p {
+        color: gray;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        border-left: 10px solid #fc635e;
+        padding-left: 10px;
+    }
+
+    .left {
+        max-width: 50%;
+    }
+
+    .right {
+        max-width: 50%;
+    }
+
+    p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+}
+
+.wedo3 .container .left {
+    order: 1;
+}
+
+.wedo3 .container .right {
+    order: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .wedo3 {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .wedo3 .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wedo3 .container img {
+        width: 100%;
+    }
+
+    .wedo3 .container .left {
+        order: 2;
+        max-width: 100%;
+    }
+
+    .wedo3 .container .right {
+        order: 1;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .wedo3 .container .btn {
+        margin-bottom: 20px;
+    }
+}

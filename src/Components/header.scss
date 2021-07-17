@@ -1,0 +1,137 @@
+.header {
+    /*Хэдер*/
+    background: url("./header_img/background.png") no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    width: 100%;
+    max-width: 1260px;
+    justify-content: space-around;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header nav > a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header nav > a img {
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+.header nav .logo:hover img {
+    opacity: 0.7;
+}
+
+.header nav menu {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.header nav menu li {
+    padding-left: 15px;
+}
+
+.header nav menu li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header nav menu li a:hover {
+    color: #fc635e;
+    border-bottom: #fc635e 3px solid;
+    padding-bottom: 3px;
+}
+
+.header .mainText {
+    /*Центральный блок*/
+    text-align: center;
+}
+
+.header .mainText h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #fff;
+}
+
+.header .mainText h2 span {
+    color: #db5854;
+}
+
+.header .mainText p {
+    color: #fff;
+    font-size: 22px;
+}
+
+.header .mainText a {
+    color: #db5854;
+    text-decoration: none;
+    font-size: 22px;
+    border: 2px solid #db5854;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.header .mainText a:hover.Iwant {
+    background: #db5854;
+    color: #fff;
+}
+
+.header .botHeader {
+    /*Ссылка со стрелкой*/
+    display: flex;
+    justify-content: center;
+}
+
+.header .botHeader a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    background: #db5854;
+    border-radius: 50%;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+}
+
+.header .botHeader a:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 540px)  {
+    
+    nav {
+        padding: 0px 20px;
+    }
+
+    menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    menu li {
+        margin-bottom: 10px;
+    }
+
+    header .mainText h2 {
+
+      font-size: 40px;
+      margin-top: 20px; 
+    }
+
+    header .mainText p{
+
+        font-size: 18px;
+        padding-bottom: 20px;
+
+    }
+}
